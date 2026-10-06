@@ -20,4 +20,4 @@ Página web sencilla de una tienda de café. Muestra productos, reseñas de clie
 
 ## Sitio publicado
 
-https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/
+daluzfiorella.github.io.
