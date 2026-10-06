@@ -4,7 +4,7 @@
 
 ## Propósito
 
-Página web sencilla de una tienda de café. Muestra productos, reseñas de clientes y un formulario de contacto.
+Página de una tienda de café. Muestra productos, reseñas de clientes y un formulario de contacto.
 
 ## Tecnologías
 
