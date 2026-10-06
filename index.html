@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiorella Mabel Da Luz | Pre-Entrega</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header id="inicio">
+    <h1>Fiorella Mabel Da Luz</h1>
+    <p>Tienda de café</p>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="productos">
+      <h2>Productos</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="https://picsum.photos/seed/cafe1/300/200" alt="Café Brasil">
+          <h3>Café Brasil</h3>
+          <p>Sabor suave con notas a chocolate.</p>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/cafe2/300/200" alt="Café Colombia">
+          <h3>Café Colombia</h3>
+          <p>Sabor frutal y dulce.</p>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/cafe3/300/200" alt="Café Etiopía">
+          <h3>Café Etiopía</h3>
+          <p>Aroma floral e intenso.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="resenas">
+      <h2>Reseñas</h2>
+      <div class="resenas">
+        <blockquote>"Muy buen café y llegó rápido." <br><strong>Lucía</strong></blockquote>
+        <blockquote>"Excelente atención." <br><strong>Martín</strong></blockquote>
+        <blockquote>"Lo recomiendo, el aroma es increíble." <br><strong>Sofía</strong></blockquote>
+        <blockquote>"Buen precio y buena calidad." <br><strong>Diego</strong></blockquote>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      
+      <form action="https://formspree.io/f/moejjdrv" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Fiorella Mabel Da Luz</p>
+  </footer>
+
+</body>
+</html>
