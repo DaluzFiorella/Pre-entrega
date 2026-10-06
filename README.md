@@ -20,4 +20,4 @@ Página web sencilla de una tienda de café. Muestra productos, reseñas de clie
 
 ## Sitio publicado
 
-daluzfiorella.github.io.
+[daluzfiorella.github.io.](https://daluzfiorella.github.io/Pre-entrega/)
